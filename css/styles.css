@@ -1,0 +1,108 @@
+*{ 
+
+}
+main{
+    background: radial-gradient(#232323,#6789);
+    min-height: 100vh;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    flex-direction: column;
+
+
+}
+.main header{
+    min-width: 100%;
+    padding: 20px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main header.logo{
+    max-width: 90px;
+}
+
+.main header.navigation{
+    display:flex;
+    flex-direction: row;
+}
+.main header.navigation li{
+    list-style:none;
+    
+}
+
+
+.main header.navigation li a{
+    text-decoration: none;
+    position: relative;
+    color:red;
+    margin-left: 40px;
+
+}
+
+.main header.navigation li:hover a{
+    color:blueviolet;
+
+}
+
+.content{
+    margin-top: 50px;
+    position:relative;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.content .texto{
+    width: 100%;
+    max-width: 600px;
+
+}
+.content .texto h2{
+    color:rosybrown;
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.1em;
+    margin:20px 0;
+}
+
+.content .texto h2 span{
+    font-weight: 900;
+
+}
+p{
+    color:#fff;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 20px 0px;
+
+}
+.btn{
+    position:relative;
+    display: inline-block;
+    background-color: pink;
+    color:orange;
+    border-radius:40px;/* hace el boton de entrar redondeado*/
+    text-decoration: none;
+    padding:20px 50px;
+}
+.content-img{/*el punto hace referenci a las clases*/
+    position: relative;
+
+}
+.content-img .imgMuestra{
+    display: block;
+}
+
+.content-img .imgMuestra img{
+    width: 90%;
+    margin-left: 10px;
+    max-width: 10%;
+}
+
